@@ -1,0 +1,155 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+body {
+    background-color: rgb(255, 253, 253);
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+}
+    
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+h2 {
+    font-size: 2em;
+    text-align: center;   
+
+}
+h3 {
+    font-size:2em;
+    text-align: center;
+}
+p {
+    font-size: 1.25em;
+    text-align: center;
+}
+.pro-image {
+    max-width: 100%;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.port-images {
+    max-width: 90%;
+
+}
+footer {
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+.main-header {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+a {
+    text-decoration: none;
+}
+.main-nav a {
+    color: firebrick;
+    text-transform: uppercase;
+} 
+.name a,.main-nav a {
+        text-align: center;
+        display: block;
+        padding: 10px 15px;
+}
+
+.container {
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.col {
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.hide li a {
+    display: inline;
+}
+.hide a {
+    font-size: 2rem;
+    display: inline-block;
+    color: firebrick;
+}
+/* ---- Layout Containers ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 768px) {
+    .main-header,
+    .main-nav
+    .container {
+        display: flex;
+    } 
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }   
+
+    .col {
+        flex: 1 50%;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+}
