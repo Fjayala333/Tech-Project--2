@@ -46,7 +46,11 @@ p {
 }
 footer {
     border-top: 1px solid grey;
+    padding: 30px 0 30px;
     text-align: center;
+}
+footer {
+    justify-content: space-between;
 }
 
 
@@ -71,6 +75,7 @@ footer {
 }
 a {
     text-decoration: none;
+    text-transform: uppercase;
 }
 .main-nav a {
     color: firebrick;
@@ -98,7 +103,7 @@ ul {
     
 }
 .hide li a {
-    display: inline;
+    display: none;
 }
 .hide a {
     font-size: 2rem;
@@ -106,6 +111,7 @@ ul {
     color: firebrick;
 }
 /* ---- Layout Containers ---- */
+
 
 
 
