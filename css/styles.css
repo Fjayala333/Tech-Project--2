@@ -59,8 +59,8 @@ footer {
 }
 footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+
 }
 
 
@@ -124,7 +124,7 @@ ul {
     color: firebrick;
 }
 .back-to-top {
-    align-self: flex-end;
+    padding-left: 60px;
 }
 
 
