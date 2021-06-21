@@ -94,6 +94,14 @@ footer {
         color: firebrick;
         
 }
+.skills li {
+    display: block;
+    color: #093a58;
+    border: 2px solid darkslategray;
+    padding: 5px 5px;
+    margin: 0 30%;
+}
+
 a:hover {
     color: #093a58
 }
@@ -101,7 +109,6 @@ a:hover {
 
 .container {
     background-color: whitesmoke;
-    align-items: center;
 }
 
 .col {
